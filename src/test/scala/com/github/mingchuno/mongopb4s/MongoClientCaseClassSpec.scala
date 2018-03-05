@@ -1,10 +1,10 @@
-package com.harborx.mongo
+package com.github.mingchuno.mongopb4s
 
 import java.util.UUID
 
-import com.harborx.mongo.codec.UUIDStringCodec
-import com.harborx.mongo.exception.DataNotFoundException
-import com.harborx.mongo.implicits._
+import com.github.mingchuno.mongopb4s.codec.UUIDStringCodec
+import com.github.mingchuno.mongopb4s.exception.DataNotFoundException
+import com.github.mingchuno.mongopb4s.implicits._
 import com.mongodb.client.model.ReturnDocument
 import org.bson.codecs.configuration.CodecRegistries.{fromCodecs, fromProviders, fromRegistries}
 import org.mongodb.scala.Completed

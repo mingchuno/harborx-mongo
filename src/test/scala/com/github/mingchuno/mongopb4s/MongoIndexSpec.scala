@@ -1,6 +1,6 @@
-package com.harborx.mongo
+package com.github.mingchuno.mongopb4s
 
-import com.harborx.mongo.index._
+import com.github.mingchuno.mongopb4s.index.{DBPopulator, MongoDBCollectionConfig, MongoDBIndexConfig}
 import org.mongodb.scala.model.IndexOptions
 import org.mongodb.scala.model.Indexes._
 

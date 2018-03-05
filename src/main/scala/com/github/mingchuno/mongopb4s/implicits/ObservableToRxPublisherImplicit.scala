@@ -1,11 +1,11 @@
-package com.harborx.mongo.implicits
+package com.github.mingchuno.mongopb4s.implicits
 
 import java.util.concurrent.atomic.AtomicBoolean
 
-import scala.language.implicitConversions
+import org.mongodb.{scala => mongoDB}
+import org.{reactivestreams => rxStreams}
 
-import org.mongodb.{ scala => mongoDB }
-import org.{ reactivestreams => rxStreams }
+import scala.language.implicitConversions
 
 // from: https://goo.gl/wQYckf
 trait ObservableToRxPublisherImplicit {

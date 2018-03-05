@@ -1,4 +1,4 @@
-package com.harborx.mongo.codec
+package com.github.mingchuno.mongopb4s.codec
 
 import java.util.UUID
 

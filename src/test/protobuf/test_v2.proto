@@ -1,6 +1,6 @@
 syntax = "proto2";
 
-package com.harborx.mongo.test.v2;
+package com.github.mingchuno.mongopb4s.test.v2;
 
 enum MyEnumV2 {
   UNKNOWN = 0;

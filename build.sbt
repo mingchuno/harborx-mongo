@@ -1,9 +1,12 @@
+import Keys._
+import xerial.sbt.Sonatype._
+
 Project.inConfig(Test)(sbtprotoc.ProtocPlugin.protobufConfigSettings)
 
 lazy val commonSettings = Seq(
   scalaVersion := "2.11.12",
 
-  organization := "com.harborx",
+  organization := "com.github.mingchuno",
 
   crossScalaVersions := Seq("2.11.12", "2.12.4"),
 
@@ -35,7 +38,7 @@ lazy val mongo = (project in file(".")).
   settings(commonSettings: _*).
   settings(
     // other settings
-    name := "harborx-mongo",
+    name := "mongopb4s",
     version := "1.0.6",
     libraryDependencies ++= Seq(
       // scalapb
@@ -49,5 +52,18 @@ lazy val mongo = (project in file(".")).
       // akka stream for testing
       "com.typesafe.akka" %% "akka-stream" % "2.5.4" % "test",
       "com.typesafe.akka" %% "akka-stream-testkit" % "2.5.4" % "test"
-    )
+    ),
+    publishTo := SonatypeKeys.sonatypePublishTo.value,
+    publishMavenStyle := true,
+    homepage := Some(url("https://github.com/mingchuno/mongopb4s")),
+    scmInfo := Some(
+      ScmInfo(
+        url("https://github.com/mingchuno/mongopb4s"),
+        "scm:git@github.com:mingchuno/mongopb4s.git"
+      )
+    ),
+    developers := List(
+      Developer(id = "mingchuno", name = "Or Ming Chun", email = "mingchuno@gmail.com", url = url("https://github.com/mingchuno"))
+    ),
+    licenses := Seq("MIT" -> url("https://opensource.org/licenses/MIT"))
   )

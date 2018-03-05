@@ -1,3 +1,3 @@
-package com.harborx.mongo
+package com.github.mingchuno.mongopb4s
 
 package object implicits extends SingleObservableImplicit with ObservableToRxPublisherImplicit

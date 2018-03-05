@@ -1,4 +1,4 @@
-package com.harborx.mongo.exception
+package com.github.mingchuno.mongopb4s.exception
 
 abstract class HxMongoException(msg: String, cause: Exception) extends Exception(msg, cause)
 

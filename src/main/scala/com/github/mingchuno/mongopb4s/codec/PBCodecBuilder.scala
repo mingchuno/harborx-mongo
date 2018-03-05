@@ -1,4 +1,4 @@
-package com.harborx.mongo.codec
+package com.github.mingchuno.mongopb4s.codec
 
 import com.google.protobuf.ByteString
 import com.trueaccord.scalapb.json.JsonFormat

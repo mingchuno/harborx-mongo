@@ -1,6 +1,6 @@
-package com.harborx.mongo.implicits
+package com.github.mingchuno.mongopb4s.implicits
 
-import com.harborx.mongo.exception.DataNotFoundException
+import com.github.mingchuno.mongopb4s.exception.DataNotFoundException
 import org.mongodb.scala.SingleObservable
 
 import scala.concurrent.{ExecutionContext, Future}

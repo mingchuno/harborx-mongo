@@ -1,7 +1,7 @@
-package com.harborx.mongo
+package com.github.mingchuno.mongopb4s
 
-import com.harborx.mongo.test.v2.MyEnumV2
-import com.harborx.mongo.test.v3.MyEnumV3
+import com.github.mingchuno.mongopb4s.test.v2.MyEnumV2
+import com.github.mingchuno.mongopb4s.test.v3.MyEnumV3
 import org.bson.codecs.configuration.CodecRegistries.{fromProviders, fromRegistries}
 import org.bson.codecs.configuration.{CodecProvider, CodecRegistry}
 import org.bson.codecs.{Codec, DecoderContext, EncoderContext}

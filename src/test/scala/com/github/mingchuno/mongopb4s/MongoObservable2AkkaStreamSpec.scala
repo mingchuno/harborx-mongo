@@ -1,10 +1,10 @@
-package com.harborx.mongo
+package com.github.mingchuno.mongopb4s
 
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.stream.scaladsl.{Sink, Source}
 import akka.testkit.{TestKit, TestKitBase}
-import com.harborx.mongo.implicits._
+import com.github.mingchuno.mongopb4s.implicits._
 import org.bson.codecs.configuration.CodecRegistries.fromRegistries
 import org.mongodb.scala.bson.codecs.DEFAULT_CODEC_REGISTRY
 import org.mongodb.scala.bson.collection.immutable.Document

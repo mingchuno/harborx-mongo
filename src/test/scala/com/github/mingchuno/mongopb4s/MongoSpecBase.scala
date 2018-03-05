@@ -1,8 +1,8 @@
-package com.harborx.mongo
+package com.github.mingchuno.mongopb4s
 
+import org.mongodb.scala._
 import org.scalatest.concurrent.ScalaFutures
 import org.scalatest.{BeforeAndAfterAll, FlatSpecLike, Matchers, OptionValues}
-import org.mongodb.scala._
 
 abstract class MongoSpecBase
   extends FlatSpecLike

@@ -1,4 +1,4 @@
-package com.harborx.mongo.index
+package com.github.mingchuno.mongopb4s.index
 
 import org.mongodb.scala.MongoDatabase
 import org.mongodb.scala.bson.conversions.Bson
