@@ -10,4 +10,14 @@ TODO
 
 ## Getting Started
 
-TODO
+
+```scala
+libraryDependencies += "com.github.mingchuno" %% "mongopb4s" % "1.0.6"
+```
+
+
+```scala
+// This impoort will do most of the job
+// check out test for other usage
+import com.github.mingchuno.mongopb4s.implicits._
+```
