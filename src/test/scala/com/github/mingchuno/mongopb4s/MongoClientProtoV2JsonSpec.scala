@@ -1,7 +1,7 @@
 package com.github.mingchuno.mongopb4s
 
 import com.github.mingchuno.mongopb4s.test.v2.{MyEnumV2, MyTestV2}
-import com.trueaccord.scalapb.json.JsonFormat
+import scalapb.json4s.JsonFormat
 import org.bson.codecs.configuration.CodecRegistries.fromRegistries
 import org.mongodb.scala.Completed
 import org.mongodb.scala.bson.codecs.DEFAULT_CODEC_REGISTRY

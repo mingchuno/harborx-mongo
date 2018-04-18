@@ -1,8 +1,8 @@
 package com.github.mingchuno.mongopb4s.codec
 
 import com.google.protobuf.ByteString
-import com.trueaccord.scalapb.json.JsonFormat
-import com.trueaccord.scalapb.{GeneratedMessage, GeneratedMessageCompanion, Message}
+import scalapb.json4s.JsonFormat
+import scalapb.{GeneratedMessage, GeneratedMessageCompanion, Message}
 import org.bson.codecs.{Codec, DecoderContext, EncoderContext}
 import org.bson.{BsonReader, BsonType, BsonWriter}
 import org.mongodb.scala.bson.BsonBinary
