@@ -39,7 +39,7 @@ lazy val mongo = (project in file(".")).
   settings(
     // other settings
     name := "mongopb4s",
-    version := "1.0.6",
+    version := "1.0.7",
     libraryDependencies ++= Seq(
       // scalapb
       "com.thesamet.scalapb" %% "scalapb-json4s" % scalapb.compiler.Version.scalapbVersion,

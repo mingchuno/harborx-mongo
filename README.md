@@ -12,7 +12,7 @@ TODO
 
 
 ```scala
-libraryDependencies += "com.github.mingchuno" %% "mongopb4s" % "1.0.6"
+libraryDependencies += "com.github.mingchuno" %% "mongopb4s" % "1.0.7"
 ```
 
 
